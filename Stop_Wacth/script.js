@@ -51,6 +51,9 @@ window.onload = function(){
 
     resetBtn.onclick = () =>{
         clearInterval(Interval)
+        mins = 0;
+        secs = 0;
+        tens = 0;
         appendMins.innerHTML = "00"
         appendSecs.innerHTML = "00"
         appendTens.innerHTML = "00"
